@@ -1,0 +1,26 @@
+.icons{
+	background: url('img/glyphicons-halflings.png') no-repeat;
+	background-position:-169px -1px;
+	width: 12px;
+	height: 13px;
+}
+.icon2{
+	background-position: -121px -1px;
+	width:13px;
+	height: 13px;
+}
+.icon3{
+	background-position:-74px -120px;
+	width: 11px;
+	height: 14px;
+}
+.icon4{
+	background-position:-170px -121px;
+	width: 11px;
+	height: 13px;
+}
+.icon5{
+	background-position:-337px -25px;
+	width: 12px;
+	height: 13px;
+}
