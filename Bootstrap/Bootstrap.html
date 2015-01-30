@@ -16,8 +16,9 @@
 		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
 		<link rel="shortcut icon" href="/favicon.ico">
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-		<link rel="stylesheet" href="/TSQUI/Bootstrap/bootstrap-3.3.2-dist/css/bootstrap.css" media="all"/>
+		<link rel="stylesheet" href="bootstrap-3.3.2-dist/css/bootstrap.css" media="all"/>
 		<link rel="stylesheet" href="/TSQUI/Bootstrap/bootstrap-3.3.2-dist/css/bootstrap-theme.css" media="all"/>
+		<link rel="stylesheet" href="bootstrap_custom.css" media="all"/ type="text/css">
 	</head>
 
 	<body>
@@ -37,14 +38,19 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
-						<li class="active">
-							<a href="#">Link <span class="sr-only">(current)</span></a>
-						</li>
+
 						<li>
-							<a href="#">Link</a>
+							<a href="#">Bootstrap Nav</a>
+						</li>
+
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="#"> <span class="glyphicon glyphicon-bell" aria-hidden="true"></span></a>
 						</li>
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img src="/TSQUI/Bootstrap/20x20_PNG_Icons_avatar_by_JMcIvor.png" alt="brand" class="img-circle"> John Smith <span class="caret"></span></a>
 							<ul class="dropdown-menu" role="menu">
 								<li>
 									<a href="#">Action</a>
@@ -59,14 +65,10 @@
 								<li>
 									<a href="#">Separated link</a>
 								</li>
-								<li class="divider"></li>
-								<li>
-									<a href="#">One more separated link</a>
-								</li>
 							</ul>
 						</li>
 					</ul>
-					<form class="navbar-form navbar-left" role="search">
+					<form class="navbar-form navbar-right" role="search">
 						<div class="form-group">
 							<input type="text" class="form-control" placeholder="Search">
 						</div>
@@ -74,31 +76,41 @@
 							Submit
 						</button>
 					</form>
-					<ul class="nav navbar-nav navbar-right">
-						<li>
-							<a href="#">Link</a>
-						</li>
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-							<ul class="dropdown-menu" role="menu">
-								<li>
-									<a href="#">Action</a>
-								</li>
-								<li>
-									<a href="#">Another action</a>
-								</li>
-								<li>
-									<a href="#">Something else here</a>
-								</li>
-								<li class="divider"></li>
-								<li>
-									<a href="#">Separated link</a>
-								</li>
-							</ul>
-						</li>
-					</ul>
 				</div><!-- /.navbar-collapse -->
+
 			</div><!-- /.container-fluid -->
+
 		</nav>
+		<ol class="breadcrumb">
+			<li>
+				<a href="#">Home</a>
+			</li>
+			<li>
+				<a href="#">Settings</a>
+			</li>
+			<li class="active">
+				Profile
+			</li>
+		</ol>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-6 col-md-3">
+					<div class="thumbnail">
+      <img src="..." alt="...">
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+				</div>
+				<div class="col-xs-6 col-md-6">
+					.col-xs-6 .col-md-4
+				</div>
+				<div class="col-xs-6 col-md-3">
+					.col-xs-6 .col-md-4
+				</div>
+			</div>
+		</div>
 	</body>
 </html>

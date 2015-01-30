@@ -7,7 +7,7 @@
 		Remove this if you use the .htaccess -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-		<title>javascript</title>
+		<title>javascript2</title>
 		<meta name="description" content="">
 		<meta name="author" content="Sarthak">
 
@@ -21,24 +21,15 @@
 	</head>
 
 	<body>
-		<div>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4">
-						<div class="input-group">
-							<input type="number" class="form-control" placeholder="Enter first number">
-							<input type="number" class="form-control" placeholder="Enter second number">
-							<input type="number" class="form-control" placeholder="Enter third number">
-							<span class="input-group-btn">
-								<button class="btn btn-default" type="submit" onclick="num()">
-									submit
-								</button> </span>
-						</div>
-						<script src="/TSQUI/Javascript/js_javascript.js"></script>
-					</div>
-				</div>
-			</div>
-		</div>
-		</div>
+		<script>var array=[12,24,8,98,16,23,8,43,85,24];
+		for (var k=0;k<array.length; k++){
+			for(var i=k+1 ; i < array.length; i++){
+				if(array[k]>array[i]){
+					var q = array[i];
+					array[i] = array[k];
+					array[k] = q;}
+				}
+			}	console.log(array);
+		</script>
 	</body>
 </html>
