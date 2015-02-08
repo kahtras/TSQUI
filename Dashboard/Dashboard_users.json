@@ -1,12 +1,12 @@
 [
 	{
-		"username" : "john",
+		"username" : "john@test.com",
 		"password" : "qwerty"
 	},	{
-		"username" : "alice",
+		"username" : "alice@test.com",
 		"password" : "asdfgh"
 	},	{
-		"username" : "sam",
+		"username" : "sam@test.com",
 		"password" : "zxcvbn"
 	}
 ]
