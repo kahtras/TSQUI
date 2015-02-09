@@ -24,16 +24,30 @@
 	<body>
 		<div class="container">
 			<div class="signinbox">
-				<h1>Please sign in</h1>
-				<label for="email"></label>
-					<input type="email" class="Input" id="email" placeholder="Email address">
-				<label for="password"></label>
-					<input type="password" class="Input" id="password" placeholder="Password">
-				<label>
-					<input type="checkbox" class="checkbox">
-				Remember me</label>
-				<button type"submit" class="button" id="signin">Sign in</button>
-				<p id="error">error</p>
+				<form id="Form">
+					<p>
+						<h1>Please sign in</h1>
+					</p>
+					<p>
+						<label for="email"></label>
+						<input type="email" class="Input" id="email" placeholder="Email address" required>
+					</p>
+					<p>
+						<label for="password"></label>
+						<input type="password" class="Input" id="password" placeholder="Password" required>
+					</p>
+					<p>
+						<label for="checkbox"></label>
+						<input type="checkbox" id="checkbox">
+						Remember me
+					</p>
+					<p>
+						<button type"submit" class="button" id="signin">
+							Sign in
+						</button>
+					</p>
+					<p id="error"></p>
+				</form>
 			</div>
 		</div>
 		</div>

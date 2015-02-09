@@ -1,0 +1,31 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font: 16px 'arial';
+}
+
+.container {
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.navbar {
+	position: absolute;
+	background: #222222;
+	width: 95%;
+	padding: 10px 40px;
+	color: #6B716D;
+	font-weight:bold;
+}
+
+.logo{
+	float:left;
+}
+
+.button{
+	float:right;
+}
