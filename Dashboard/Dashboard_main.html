@@ -20,20 +20,45 @@
 	</head>
 
 	<body>
-<div class="container">
-	<div class="navbar">
-		<div class="logo">Dashboard</div>
-		<div class="button">
-			<select>
-				<option>Sarthak</option>
-				<option>Profile</option>
-				<option>Settings</option>
-				<option>Logout</option></select>
-			<button>About</button>
-			<button>Contact</button>
+		<div class="container">
+			<div class="navbar">
+				<p class="logo">
+					Dashboard
+				</p>
+				<ul>
+					<li>
+						<a href="#" class="active">Sarthak</a>
+						<ul class="namelist">
+							<li>
+								<a href="#">Profile</a>
+							</li>
+							<li>
+								<a href="#">Settings</a>
+							</li>
+							<li>
+								<a href="#">Logout</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">About</a>
+					</li>
+					<li>
+						<a href="#">Contact</a>
+					</li>
+
+				</ul>
+			</div>
+			<div class="searchbar">
+				<label for="search"></label>
+				<input type="text" id="search" placeholder="Enter search information">
+				<select><option>Account</option>
+					<option>First Name</option>
+					<option>Last Name</option>
+					<option>Email</option>
+				</select>
+				<button type"submit">Search</button>
+			</div>
 		</div>
-	</div>
-	
-</div>
 	</body>
 </html>
