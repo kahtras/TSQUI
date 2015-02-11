@@ -113,10 +113,10 @@ body {
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff265a88', GradientType=0);
 	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 	background-repeat: repeat-x;
-	margin-left:10px;
+	margin-left: 10px;
 }
-.searchbar select{
-	padding:4px;
+.searchbar select {
+	padding: 4px;
 }
 
 .searchbar button:active {
@@ -130,4 +130,11 @@ body {
 	padding: 5px;
 	border: 1px solid #CCC;
 	border-radius: 4px;
+}
+
+.usertable th{
+	margin-right:40px;	
+}
+.usertable th:last-child{
+	margin-right:0px;
 }
